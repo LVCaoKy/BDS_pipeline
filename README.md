@@ -1,12 +1,12 @@
 # BDS_pipeline
 
-Xây dựng pineline tự động thu thập , làm sạch , đưa dữ liệu lên warehouse :
-Các tools sẽ được sử dụng :
--Selenium,Scrapy(Craw data)
--MongoDB,PostgreSQL,MySQL(RAW DATA Database)
--AirFlow,dbt(TransForm)
--SnowFlake(Data Warehouse/Storage)
--Visualation(Power BI)
-Các ngôn ngữ sử dụng : SQL,python
-Chủ đề của hệ thống : Bất Động Sản tại TPHCM
+Xây dựng pineline tự động thu thập , làm sạch , đưa dữ liệu lên warehouse : \n
+Các tools sẽ được sử dụng : \n
+-Selenium,Scrapy(Craw data) \n
+-MongoDB,PostgreSQL,MySQL(RAW DATA Database) \n
+-AirFlow,dbt(TransForm) \n
+-SnowFlake(Data Warehouse/Storage) \n
+-Visualation(Power BI) \n
+Các ngôn ngữ sử dụng : SQL,python \n 
+Chủ đề của hệ thống : Bất Động Sản tại TPHCM \n
 
