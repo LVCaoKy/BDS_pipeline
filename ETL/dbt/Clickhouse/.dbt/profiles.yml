@@ -1,0 +1,33 @@
+dbt_project:
+  outputs:
+    dev:
+      database: DBT_RAW
+      host: vpbso2p7c9.asia-southeast1.gcp.clickhouse.cloud
+      password: _VWE6oWKh0K.H
+      port: 8443
+      protocol: https
+      schema: DBT_RAW
+      secure: true
+      type: clickhouse
+      user: default
+    prod:
+      database: DBT_MART
+      host: vpbso2p7c9.asia-southeast1.gcp.clickhouse.cloud
+      password: _VWE6oWKh0K.H
+      port: 8443
+      protocol: https
+      schema: DBT_MART
+      secure: true
+      type: clickhouse
+      user: default
+    staging:
+      database: DBT_STAGING
+      host: vpbso2p7c9.asia-southeast1.gcp.clickhouse.cloud
+      password: _VWE6oWKh0K.H
+      port: 8443
+      protocol: https
+      schema: DBT_STAGING
+      secure: true
+      type: clickhouse
+      user: default
+  target: staging

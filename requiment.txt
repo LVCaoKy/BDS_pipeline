@@ -1,3 +1,4 @@
 # You must have install python and selenium to run this folder
 pip install python
 pip install selenium
+pip install dbt-core
